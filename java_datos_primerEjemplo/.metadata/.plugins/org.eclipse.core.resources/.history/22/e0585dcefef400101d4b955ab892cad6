@@ -1,0 +1,48 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		Calculadora calcu;
+		int resultadoSuma;
+		int resultadoResta;
+		double reultadoMultiplicar;
+		double resultadoDividir;
+		double resultadoPromedio; 
+		
+		System.out.println(" suma");
+		
+		calcu=new Calculadora();
+		resultadoSuma=calcu.sumar(50,3);
+		
+		System.out.println("El resultado es : " + resultadoSuma);
+	
+		System.out.println(" resta ");
+		
+		resultadoResta=calcu.restar(100,5);
+		
+		System.out.println("El resultafo es : " +resultadoResta );
+		
+		System.out.println(" Multiplicacion ");
+		
+		reultadoMultiplicar=calcu.multiplicar(10, 5);
+		
+		System.out.println("El resultado es : " +reultadoMultiplicar);
+		
+		System.out.println(" Dividir ");
+		
+		resultadoDividir=calcu.Dividir(10,2);
+		
+		System.out.println("El resultado es : " + resultadoDividir);
+		
+		System.out.println(" Promedio ");
+		
+		resultadoPromedio=calcu.Promediar(10, 8, 9);
+		
+		System.out.println("El resultado es : " +resultadoPromedio);
+		
+		
+	}
+	
+
+}

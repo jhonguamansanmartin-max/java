@@ -1,0 +1,24 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		Calculadora calcu;
+		int resultadoSuma;
+		int resultadoResta;
+		
+		System.out.println(" suma");
+		calcu=new Calculadora();
+		resultadoSuma=calcu.sumar(50s,3);
+		
+		System.out.println("El resultado es : " + resultadoSuma);
+	
+		System.out.println(" resta ");
+		
+		resultadoResta=calcu.restar(100,5);
+		System.out.println("El resultafo es : " +resultadoResta );
+		
+	}
+	
+
+}
