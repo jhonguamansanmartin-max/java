@@ -1,0 +1,21 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		Cuadrado p=new Cuadrado();
+		Cuadrado p1 =new Cuadrado();
+		
+		double cuadrado1;
+		double perimetro;
+		p.lado=4;
+		
+		p1.lado=3;
+		
+		cuadrado1=p.calcularArea();
+		System.out.println("El perimetro es :" + cuadrado1);
+		
+
+	}
+
+}
