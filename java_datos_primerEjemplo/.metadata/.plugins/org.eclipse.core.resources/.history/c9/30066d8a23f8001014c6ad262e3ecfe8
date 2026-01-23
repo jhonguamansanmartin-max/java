@@ -1,0 +1,9 @@
+package com.krakedev;
+
+public class Productos {
+	private String Nombre;
+	private String Descripcion;
+	private float Precio;
+	private int StockActual;
+	
+}

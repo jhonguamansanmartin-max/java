@@ -1,0 +1,50 @@
+package com.krakedev;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		Productos productoA = new Productos();
+		Productos productoB = new Productos();
+		Productos productoC = new Productos();
+		
+		System.out.println("----Producto A---");
+		productoA.setNombre("PARACETAMOL");   
+		productoA.setDescripcion("Para uso de la fiebre"); 
+		productoA.setPrecio(10.45f);  
+		productoA.setStockActual(25);
+		
+			System.out.println("nombre : " + productoA.getNombre() );
+			System.out.println("Descripcion : " + productoA.getDescripcion() );
+			System.out.println("Precio : " + productoA.getPrecio() );
+			System.out.println("Stock Actual : " + productoA.getStockActual() );
+		
+		System.out.println("----Producto B---");
+		productoB.setNombre("Complejo B"); 
+		productoB.setDescripcion("ayuda a la piel");
+		productoB.setPrecio(7.80f);  
+		productoB.setStockActual(25);  
+		
+			System.out.println("nombre : " + productoB.Nombre );
+			System.out.println("Descripcion : " + productoB.Descripcion );
+			System.out.println("Precio : " + productoB.Precio );
+			System.out.println("Stock Actual : " + productoB.StockActual );
+		
+		
+		System.out.println("----Producto C---");
+		productoC.Nombre = "Vitamina 'C' " ;
+		productoC.Descripcion= "refuerza las defensas del niños";
+		productoC.Precio =5.50f ;
+		productoC.StockActual = 25 ;
+		
+			System.out.println("nombre : " + productoC.Nombre );
+			System.out.println("Descripcion : " + productoC.Descripcion );
+			System.out.println("Precio : " + productoC.Precio );
+			System.out.println("Stock Actual : " + productoC.StockActual );
+		
+		
+		
+		
+		
+	}
+
+}

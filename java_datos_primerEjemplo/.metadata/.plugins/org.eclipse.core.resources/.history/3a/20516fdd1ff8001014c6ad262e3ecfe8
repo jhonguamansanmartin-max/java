@@ -1,0 +1,12 @@
+package com.krakedev;
+
+public class Mensajeria {
+	private void saludar() {
+		System.out.println("hola mundo");
+		
+	}
+	private void saludarAmigo(String nombre,String apellido ) {
+			System.out.println("hola " + nombre +" "+apellido);
+		}
+	
+}
