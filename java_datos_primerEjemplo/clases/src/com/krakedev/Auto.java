@@ -4,6 +4,8 @@ public class Auto {
 	public Auto(String string, int i, float f) {
 		
 	}
+	
+	
 	private String Marca;
 	private int Año;
 	private float Precio;

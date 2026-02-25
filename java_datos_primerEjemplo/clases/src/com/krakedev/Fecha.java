@@ -5,6 +5,16 @@ public class Fecha {
 	private int mes;
 	private int dia;
 	
+	public Fecha(int mes){
+		this.mes=mes;	
+	};
+	public Fecha(){
+		
+	};
+	
+	
+	
+	
 	public int getAnio() {
 		
 		return anio;
@@ -16,7 +26,6 @@ public class Fecha {
 	public int getDia() {
 	return dia;
 	}
-	
 	public void setAnio(int anio) {
 		this.anio=anio;
 	}
@@ -26,6 +35,4 @@ public class Fecha {
 	public void setDia(int dia) {
 		this.dia=dia;
 	}
-	
-	
 }

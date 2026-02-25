@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.krakedev.Mensajeria.mensaje&apos; in &apos;com.krakedev.Mensajeria&apos;&#x0D;&#x0A;- Original project: &apos;clases&apos;&#x0D;&#x0A;- Original element: &apos;com.krakedev.Mensajeria.mensaje&apos;&#x0D;&#x0A;- Getter method name: &apos;getMensaje&apos;&#x0D;&#x0A;- Setter method name: &apos;setMensaje&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;mensaje, ...&apos;" flags="589830" getter="getMensaje" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.krakedev{Mensajeria.java[Mensajeria^mensaje" insertion="2" setter="setMensaje" stamp="1771991651869" version="1.0" visibility="1"/>
+</session>

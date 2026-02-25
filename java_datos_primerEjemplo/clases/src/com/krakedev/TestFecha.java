@@ -7,6 +7,9 @@ public class TestFecha {
 		fecha1.setAnio(2000);
 		fecha1.setMes(12);
 		fecha1.setDia(74);
+		Fecha f1 = new Fecha(1987);
+		
+		System.out.println("fecha es " + f1.getMes());
 		
 		System.out.println("La fecha es : " +fecha1.getAnio());
 		System.out.println("El mes es : " +fecha1.getMes());

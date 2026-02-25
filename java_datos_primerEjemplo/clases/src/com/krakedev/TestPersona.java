@@ -7,6 +7,19 @@ public class TestPersona {
 		Persona p2 = new Persona();
 		p = new Persona(); // 2instanciar un objeto persona,referenciarlo con p
 // 3. accedo a los atributos	
+		Persona p3 =new Persona("JHON");
+		Persona p4 =new Persona("KEVIN",43,1.75);
+		
+		System.out.println("nombre segundo :" +p3.getNombre());
+	
+		System.out.println("tu nombre es :"+ p4.getNombre());
+		System.out.println("tu edad es  :"+ p4.getEdad());
+		System.out.println("tu estatura es  :"+ p4.getEstatura());
+		
+		
+		
+		
+		
 		System.out.println("nombre : " + p.getNombre()); // sysout mas crt y espacio
 		System.out.println("edad : " + p.getEdad());
 		System.out.println("estatura : " + p.getEstatura());
