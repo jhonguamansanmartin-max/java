@@ -5,6 +5,12 @@ public class Validador {
 			
 			if(edad>=18) {
 				System.out.println("es mayor de edad ");
+			}else if (edad>=12 && edad<18 ) {
+				System.out.println("Es adolecente ");
+			}else if (edad>0 &&edad <12) {
+				System.out.println("Es un niño");
+			}else {
+				System.out.println("edad incorrecta");
 			}
 		}
 		

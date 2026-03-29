@@ -11,6 +11,8 @@ public class TestValidar {
 		validador.validarEdad(30);
 		validador.validarEdad(40);
 		validador.validarEdad(50);
+		validador.validarEdad(12);
+		validador.validarEdad(-3);
 	}
 
 }
