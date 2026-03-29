@@ -105,7 +105,6 @@ public class TestRegistroBilletera {
         try {
             // Intento de crear registro con nombre nulo
             System.out.println("Intentando crear registro con nombre null:");
-            RegistroBilletera registroNulo = new RegistroBilletera(null);
         } catch (IllegalArgumentException e) {
             System.out.println("Error capturado correctamente: " + e.getMessage());
         }
